@@ -10,7 +10,7 @@ namespace LineComparsionProblem
     {
         public static void cal_len()
         {
-            double Leng = 0.0;
+            double Len = 0.0;
             System.Console.WriteLine("Calculating length of two points of x,y Co-ordinates : \n");
             System.Console.WriteLine("Enter x1 y1 x2 y2 value of first point : ");
             double x1 = Convert.ToDouble(Console.ReadLine());
@@ -18,8 +18,8 @@ namespace LineComparsionProblem
             double x2 = Convert.ToDouble(Console.ReadLine());
             double y2 = Convert.ToDouble(Console.ReadLine());
 
-            Leng = Math.Sqrt((Math.Pow((x2 - x1), 2) + Math.Pow((y2 - y1), 2)));
-            System.Console.WriteLine(" The length of two points is : " + Leng);
+            Len = Math.Sqrt((Math.Pow((x2 - x1), 2) + Math.Pow((y2 - y1), 2)));
+            System.Console.WriteLine(" The length of two points is : " + Len);
         }
     }
 }
