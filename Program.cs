@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Welcome to Line Comparison Computation Program");
 
-            LineEqual.equal();
+            LineCompare.Linecompare();
         }
     }
 }
